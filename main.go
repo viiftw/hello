@@ -13,7 +13,7 @@ type Hello struct {
 
 // SayHello someone with name
 func (h *Hello) SayHello() error {
-	fmt.Println("Hello baby: ", h.Name)
+	fmt.Println("Hello baby tag v0.3.0: ", h.Name)
 	return nil
 }
 
