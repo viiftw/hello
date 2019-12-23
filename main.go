@@ -17,6 +17,12 @@ func (h *Hello) SayHello() error {
 	return nil
 }
 
+// SayHi someone with name
+func (h *Hello) SayHi() error {
+	fmt.Println("Hi baby: ", h.Name)
+	return nil
+}
+
 // NewHello create Hello struct
 func NewHello(name string) *Hello {
 	return &Hello{Name: name}
