@@ -19,7 +19,7 @@ func (h *Hello) SayHello() error {
 
 // SayHi someone with name
 func (h *Hello) SayHi() error {
-	fmt.Println("Hi baby: ", h.Name)
+	fmt.Println("Hi noob: ", h.Name)
 	return nil
 }
 
